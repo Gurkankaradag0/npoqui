@@ -1,0 +1,118 @@
+.npoqui-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  background-color: rgb(216, 216, 216);
+  color: rgb(39, 39, 39);
+  width: max-content;
+  border-radius: 0.65rem;
+  font-size: 16px;
+  min-height: 2rem;
+  min-width: 2rem;
+  border-color: transparent;
+  column-gap: 2px;
+  font-weight: 500;
+}
+
+.npoqui-btn[variant='primary'] {
+  background-color: rgb(70, 49, 129);
+  color: rgb(229 231 235);
+}
+
+.npoqui-btn[variant='danger'] {
+  background-color: rgb(185 28 28);
+  color: rgb(229 231 235);
+}
+
+.npoqui-btn[variant='warning'] {
+  background-color: rgb(253 186 116);
+  color: rgb(124 45 18);
+}
+
+.npoqui-btn[variant='colored'] {
+  background-color: var(--backgroundColor);
+  color: var(--color);
+}
+
+.npoqui-btn-lg {
+  font-size: 24px;
+  padding: 0.75rem 1.5rem;
+  min-height: 2.5rem;
+  min-width: 2.5rem;
+  border-radius: 0.85rem;
+}
+
+.npoqui-btn-sm {
+  font-size: 12px;
+  padding: 0.25rem 0.5rem;
+  min-height: 1.5rem;
+  min-width: 1.5rem;
+  border-radius: 0.45rem;
+}
+
+.npoqui-btn.npoqui-btn-lg.npoqui-rounded-full {
+  border-radius: 2.5rem;
+}
+
+.npoqui-btn.npoqui-btn-lg.npoqui-rounded-lg {
+  border-radius: 1.25rem;
+}
+
+.npoqui-btn.npoqui-btn-lg.npoqui-rounded-sm {
+  border-radius: 0.75rem;
+}
+
+.npoqui-btn.npoqui-rounded-full {
+  border-radius: 2rem;
+}
+
+.npoqui-btn.npoqui-rounded-lg {
+  border-radius: 0.85rem;
+}
+
+.npoqui-btn.npoqui-rounded-sm {
+  border-radius: 0.35rem;
+}
+
+.npoqui-btn.npoqui-btn-sm.npoqui-rounded-full {
+  border-radius: 1.5rem;
+}
+
+.npoqui-btn.npoqui-btn-sm.npoqui-rounded-lg {
+  border-radius: 0.75rem;
+}
+
+.npoqui-btn.npoqui-btn-sm.npoqui-rounded-sm {
+  border-radius: 0.25rem;
+}
+
+.npoqui-btn.npoqui-btn-lg.npoqui-btn-icon-only {
+  padding: 0.375rem !important;
+}
+
+.npoqui-btn.npoqui-btn-icon-only {
+  padding: 0.25rem !important;
+}
+
+.npoqui-btn.npoqui-btn-sm.npoqui-btn-icon-only {
+  padding: 0.125rem !important;
+}
+
+.npoqui-btn.npoqui-btn-lg.npoqui-btn-icon {
+  padding: 0.375rem 0.75rem;
+  padding-right: 1.5rem;
+  column-gap: 4px;
+}
+
+.npoqui-btn.npoqui-btn-icon {
+  padding: 0.25rem 0.5rem;
+  padding-right: 1rem;
+}
+
+.npoqui-btn.npoqui-btn-sm.npoqui-btn-icon {
+  padding: 0.125rem 0.25rem;
+  padding-right: 0.5rem;
+  column-gap: 0;
+}
